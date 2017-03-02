@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="inout_back_selecter" format="reference"/>
+    <attr name="usericon" format="reference" />
+    <attr name="lock" format="reference" />
+    <attr name="loginlogo" format="reference" />
+    <attr name="checkinfo_green_button" format="reference" />
+    <attr name="homepage_menu_button" format="reference" />
+    <attr name="homepage_message_button" format="reference" />
+</resources>

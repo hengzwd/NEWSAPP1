@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="newsemc.com.awit.news.newsemcappdftl" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:name="newsemc.com.awit.news.newsemcappdftl.application.NewsEMCAppllication"
+        android:allowBackup="true"
+        android:icon="@mipmap/newsapp_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="newsemc.com.awit.news.newsemcappdftl.activity.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.RelateaAccountDialogActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.Dialog"/>
+
+        <activity android:name="newsemc.com.awit.news.newsemcappdftl.activity.MainActivity" />
+        <activity android:name="newsemc.com.awit.news.newsemcappdftl.activity.ProjectTotalActivity" />
+        <activity android:name="newsemc.com.awit.news.newsemcappdftl.activity.SingleActivity" />
+        <activity android:name="newsemc.com.awit.news.newsemcappdftl.activity.GridSingleActivity" />
+        <activity android:name="newsemc.com.awit.news.newsemcappdftl.activity.MienCreateActivity" />
+        <activity android:name="newsemc.com.awit.news.newsemcappdftl.activity.CompanyNewSingleActivity" />
+        <activity android:name="newsemc.com.awit.news.newsemcappdftl.activity.AboutUsActivity" />
+        <activity android:name="newsemc.com.awit.news.newsemcappdftl.activity.UserAdvicesActivity" />
+        <activity android:name="newsemc.com.awit.news.newsemcappdftl.activity.ErWeiMaActivity" />
+        <activity android:name="newsemc.com.awit.news.newsemcappdftl.activity.ImageDetailActivity" />
+        <activity android:name="newsemc.com.awit.news.newsemcappdftl.activity.MyImageViewActivity" />
+        <activity android:name="newsemc.com.awit.news.newsemcappdftl.activity.SpinnerActivity" />
+        <activity android:name="newsemc.com.awit.news.newsemcappdftl.activity.SpecialLoginActivity" />
+        <activity android:name="newsemc.com.awit.news.newsemcappdftl.activity.DangWorkingActivity" />
+        <activity android:name="newsemc.com.awit.news.newsemcappdftl.activity.ImportantSpeakingActivity" />
+        <activity android:name="newsemc.com.awit.news.newsemcappdftl.activity.SingleNewActivity1"/>
+        <activity android:name="newsemc.com.awit.news.newsemcappdftl.activity.IntentActivity"/>
+        <activity android:name="newsemc.com.awit.news.newsemcappdftl.activity.WebviewActivity"/>
+        <activity android:name="newsemc.com.awit.news.newsemcappdftl.activity.SingleNewActivity"/>
+        <activity android:name="newsemc.com.awit.news.newsemcappdftl.activity.NewsDetailActivity"/>
+        <activity
+            android:name="newsemc.com.awit.news.newsemcappdftl.activity.ProjectStateActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="newsemc.com.awit.news.newsemcappdftl.activity.ProjectTotalActivity2" />
+        <activity android:name="newsemc.com.awit.news.newsemcappdftl.activity.DaiBanTaskActivity" />
+        <activity android:name="newsemc.com.awit.news.newsemcappdftl.activity.ConstructActivity" />
+    </application>
+
+</manifest>
